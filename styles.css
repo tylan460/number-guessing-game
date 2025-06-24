@@ -25,6 +25,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .title{
@@ -62,12 +63,13 @@ body {
     border-color: beige;
     margin-left: 10%;
     margin-right: 10%;
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 5%;
     padding-top: 5%;
+    gap: 10px;
 }
 
 
@@ -86,7 +88,23 @@ body {
     background-color: wheat;
     height: 50px;
     padding-left: 25px;
-
+    margin-right: 10px
 }
 
 
+
+
+.check-and-stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: wheat;
+    font-family: 'Press Start 2P';
+    cursor: pointer;
+    margin-right: 10px;
+}
