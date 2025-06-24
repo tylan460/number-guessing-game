@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+.again_range{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
