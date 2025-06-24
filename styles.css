@@ -1,6 +1,8 @@
 body {
-    background-color: aqua;
+    background-color: lightskyblue;
 }
+
+
 
 .again_range{
     display: flex;
@@ -8,5 +10,43 @@ body {
     justify-content: space-between;
     padding-right: 5%;
     padding-left: 5%;
+    margin-bottom: 50px;
     
 }
+
+.again{
+    border-style: solid;
+    border-color: wheat;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+    margin-bottom: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.box {
+  border-style: solid;
+  
+  border-color: black;
+  background-color: wheat;
+
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.number{
+    font-size: 50px;
+}
+
+
+
