@@ -75,9 +75,18 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 
 }
 
 .text-box{
-    
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: wheat;
+    height: 50px;
+    padding-left: 25px;
+
 }
+
+
